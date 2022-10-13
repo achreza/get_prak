@@ -3,11 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../controllers/home_controller.dart';
+import '../widgets/drawer.dart';
 
 class SearchView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        drawer: MainDrawer(),
         appBar: AppBar(
           title: Text('SearchView'),
           centerTitle: true,

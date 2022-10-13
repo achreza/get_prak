@@ -5,12 +5,14 @@ import 'package:get_prak/app/modules/home/models/player.dart';
 import 'package:hexcolor/hexcolor.dart';
 
 import '../controllers/home_controller.dart';
+import '../widgets/drawer.dart';
 
 class ReelsView extends GetView<HomeController> {
   List<Player> data = playerList;
 
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: MainDrawer(),
       appBar: AppBar(
         backgroundColor: Colors.black,
         title: Text('Reels View'),

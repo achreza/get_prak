@@ -31,7 +31,7 @@ class HomeController extends GetxController
     tabController.animateTo(index);
     tampilSnackbar(index);
   }
-
+  
   void tampilSnackbar(int index) {
     Get.showSnackbar(
       GetSnackBar(
