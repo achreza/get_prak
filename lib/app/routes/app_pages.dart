@@ -5,6 +5,8 @@ import 'package:get_prak/app/modules/appcycle/views/appcycle_view.dart';
 import 'package:get_prak/app/modules/home/bindings/home_binding.dart';
 import 'package:get_prak/app/modules/home/views/home_nav_view.dart';
 import 'package:get_prak/app/modules/home/views/home_view.dart';
+import 'package:get_prak/app/modules/profile/bindings/profile_binding.dart';
+import 'package:get_prak/app/modules/profile/views/profile_view.dart';
 import 'package:get_prak/app/modules/videopage/bindings/videopage_binding.dart';
 import 'package:get_prak/app/modules/videopage/views/videopage_view.dart';
 
@@ -30,6 +32,11 @@ class AppPages {
       name: _Paths.VIDEOPAGE,
       page: () => VideopageView(),
       binding: VideopageBinding(),
+    ),
+    GetPage(
+      name: _Paths.PROFILE,
+      page: () => ProfileView(),
+      binding: ProfileBinding(),
     ),
   ];
 }

@@ -7,10 +7,12 @@ abstract class Routes {
   static const HOME = _Paths.HOME;
   static const APPCYCLE = _Paths.APPCYCLE;
   static const VIDEOPAGE = _Paths.VIDEOPAGE;
+  static const PROFILE = _Paths.PROFILE;
 }
 
 abstract class _Paths {
   static const HOME = '/home';
   static const APPCYCLE = '/appcycle';
   static const VIDEOPAGE = '/videopage';
+  static const PROFILE = '/profile';
 }
